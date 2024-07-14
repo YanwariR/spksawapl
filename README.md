@@ -2,7 +2,7 @@
 # Sistem Pendukung Keputusan - Pemilihan Game Playstore Terbaik dengan metode SAW (Simple Additive Weighting) menggunakan PHP dan MySQL
 
 
-## Deskripsi Proyek
+## Deskripsi
 Sistem Pendukung Keputusan ini dirancang untuk membantu dalam pemilihan game terbaik di Playstore menggunakan metode SAW (Simple Additive Weighting). Sistem ini dibangun dengan menggunakan PHP untuk logika aplikasi dan MySQL sebagai basis data.
 
 ## Fitur
