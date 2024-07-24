@@ -2,7 +2,7 @@
 # Sistem Pendukung Keputusan - Pemilihan Game Playstore Terbaik dengan metode SAW (Simple Additive Weighting) menggunakan PHP dan MySQL
 
 
-## Deskripsi Proyek
+## Deskripsi
 Sistem Pendukung Keputusan ini dirancang untuk membantu dalam pemilihan game terbaik di Playstore menggunakan metode SAW (Simple Additive Weighting). Sistem ini dibangun dengan menggunakan PHP untuk logika aplikasi dan MySQL sebagai basis data.
 
 ## Fitur
@@ -18,9 +18,11 @@ Sistem Pendukung Keputusan ini dirancang untuk membantu dalam pemilihan game ter
 
 ## Instalasi
 
-Pertama, download dulu https://blablabla, kemudian import database pada folder database/uas_spk.sql pada xampp atau laragon.
+Pertama, download dulu `https://github.com/mochikoeki/spksawapl.git`, kemudian import database pada folder database/uas_spk.sql pada xampp atau laragon.
 
 Buka terminal pada vscode lalu aktifkan server local, kemudian buka program menggunakan browser yang kalian punya.
+
+*Walau terdapat login.php pada folder, tidak perlu khawatir untuk user name dan password. Karena program akan langsung berjalan ke index.php (Dashboard Program) 
 
 ## Screenshots
 
