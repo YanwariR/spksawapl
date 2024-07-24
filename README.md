@@ -24,7 +24,7 @@ Buka terminal pada vscode lalu aktifkan server local, kemudian buka program meng
 
 ## Screenshots
 
-![App Screenshot](./images/Screenshot%49(49).png)
+![App Screenshot](./images/Screenshot(49).png)
 
 ![App Screenshot](./images/Screenshot%20(20).png)
 
