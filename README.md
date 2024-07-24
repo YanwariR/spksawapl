@@ -22,6 +22,8 @@ Pertama, download dulu `https://github.com/YanwariR/spksawapl.git`, kemudian imp
 
 Buka terminal pada vscode lalu aktifkan server local, kemudian buka program menggunakan browser yang kalian punya.
 
+*Walau terdapat login.php pada folder, tidak perlu khawatir untuk user name dan password. Karena program akan langsung berjalan ke index.php (Dashboard Program) 
+
 ## Screenshots
 
 ![App Screenshot](./images/Screenshot%20(20).png)
