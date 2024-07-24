@@ -26,11 +26,9 @@
     --tran-04: all 0.4s ease;
     --tran-05: all 0.5s ease;
 
-    body{
-        height: 100vh;
-        background: var(--background-color);
-        transition: var(--tran-04);
-    
+    html, body {
+        height: 100%;
+        margin: 0;
     }
 }
 
@@ -58,10 +56,14 @@
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-   
+    align-items: center; /* Vertikal center */
+    justify-content: center; /* Horizontal center */
+    width: 400px;
+    height: 100vh; /* Menggunakan height viewport agar selalu memenuhi layar */
+    position: fixed; /* Menggunakan fixed agar tetap berada di layar */
+    top: 50%; /* Mengatur posisi atas ke tengah layar */
+    left: 50%; /* Mengatur posisi kiri ke tengah layar */
+    transform: translate(-50%, -50%); /* Menggeser posisi elemen untuk benar-benar berada di tengah */
 }
 
 .box {
@@ -149,8 +151,8 @@
     margin-bottom: 10px;
 }
 
-.login {
-    display: flex;
+.login2 {
+    width: 100%;
     color: #fff;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -169,20 +171,7 @@
     
 }
 
-.login2 {
-    background-color: #007bff; 
-    color: #fff;
-    border: none;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 16px;
-    padding-right: 16px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 6px;
-    box-shadow: 0 2px 10px #0000001b;
-    transition: background-color 0.3s ease;
-}
+
 
 .signin {
   
