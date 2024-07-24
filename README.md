@@ -20,9 +20,11 @@ Sistem Pendukung Keputusan ini dirancang untuk membantu dalam pemilihan game ter
 
 Pertama, download dulu `https://github.com/mochikoeki/spksawapl.git`, kemudian import database pada folder database/uas_spk.sql pada xampp atau laragon.
 
-Buka terminal pada vscode lalu aktifkan server local, kemudian buka program menggunakan browser yang kalian punya. Untuk login gunakan email `admin@hola.com` dan password `1234`, anda juga bisa menggantinya pada file login.php
+Buka terminal pada vscode lalu aktifkan server local, kemudian buka program menggunakan browser yang kalian punya. Untuk login gunakan email `admin@hola.com` dan password `1234`, kalian juga bisa mengganti email dan password pada file login.php
 
 ## Screenshots
+
+![App Screenshot](./images/Screenshot%49(49).png)
 
 ![App Screenshot](./images/Screenshot%20(20).png)
 
