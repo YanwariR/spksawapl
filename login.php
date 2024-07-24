@@ -28,17 +28,18 @@
                 
                 <span class="welkam">Welcome, Again</span>
                 <span class="subwelkam">Decision Support System.</span>
-                <input id="input" type="text" placeholder="Email Addres">
-                <input id="input2" placeholder="Password">
+                
+                <form method="POST" action="login.php">
+                    <input id="input" type="email" name="email" placeholder="Email Address" required>
+                    <input id="input2" type="password" name="password" placeholder="Password" required>
+                    <button type="submit" class="login2">Login</button>
+                </form>
                
-                    <span class="forgot">Forgot Password?</span>
-                <a class="login" href="index.php">
-                    <button class="login2">Login</button>
-                </a>
+                <span class="forgot">Forgot Password?</span>
                 
                 <button class="signin">
                     <i class='bx bxl-google google'></i>
-                    Sign In with google
+                    Sign In with Google
                 </button>
 
                 <div class="daftar">
@@ -47,5 +48,21 @@
             </div>
         </div>
     </div>
+
+    <?php
+    session_start();
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+
+        if ($email == 'admin@hola.com' && $password == '1234') {
+            $_SESSION['loggedin'] = true;
+            header('Location: index.php');
+            exit();
+        } else {
+            echo "<script>alert('Email atau password salah!');</script>";
+        }
+    }
+    ?>
 </body>
 </html>
